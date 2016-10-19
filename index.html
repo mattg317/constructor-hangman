@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- jQuery cdn -->
+	<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!--additional CSS -->
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		  <h1>Hangman!</h1>
+		  <p>Hit any Letter to Start</p>
+		</div>
+	</div>
+
+	<div class="container">
+	<div id="record">
+
+	</div>
+
+		<div class="row">
+				<!-- Image changer -->
+			<div class="col-lg-6" id="hang">
+			
+			</div>
+					<!-- Playing game -->
+			<div class="col-lg-6">
+			<h2>Guess the Animal!</h2>
+				<div id="board">
+				<!-- through js board will display here -->
+				</div>
+				<h1>Game Stats</h1>
+					<div id="score">
+						<div class="panel panel-default">
+						  <div class="panel-heading">Chances Left</div>
+						  <div class="panel-body">
+						    8
+						  </div>
+						</div>
+
+						<div class="panel panel-default">
+							 <div class="panel-heading">
+							  <h3 class="panel-title">Letters Guessed</h3>
+						  	</div>
+							 <div class="panel-body">
+							    None yet!
+							 </div>
+						</div>
+					</div>
+
+				<div class="winner">
+					
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+		</div>
+
+	</div>
+	
+
+<footer>
+		<div class="container">
+			&copy; Copyright 2016 Matthew Giordanella
+		</div>
+</footer>
+
+
+<script type="text/javascript" src="hangman.js"></script>
+	
+</body>
+</html>
